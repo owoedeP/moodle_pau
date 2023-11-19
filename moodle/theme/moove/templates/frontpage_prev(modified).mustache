@@ -1,0 +1,239 @@
+{{!
+    This is all their comment.
+
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template theme_moove/drawers
+
+    Boost drawer template.
+
+    Context variables required for this template:
+    * sitename - The name of the site
+    * output - The core renderer for the page
+    * bodyattributes - attributes for the body tag as a string of html attributes
+    * sidepreblocks - HTML for the blocks
+    * hasblocks - true if there are blocks on this page
+    * courseindexopen - true if the nav drawer should be open on page load
+    * regionmainsettingsmenu - HTML for the region main settings menu
+    * hasregionmainsettingsmenu - There is a region main settings menu on this page.
+
+    Example context (json):
+    {
+        "sitename": "Moodle",
+        "output": {
+            "doctype": "<!DOCTYPE html>",
+            "page_title": "Test page",
+            "favicon": "favicon.ico",
+            "main_content": "<h1>Headings make html validators happier</h1>"
+         },
+        "bodyattributes":"",
+        "sidepreblocks": "<h2>Blocks html goes here</h2>",
+        "hasblocks":true,
+        "courseindexopen": true,
+        "navdraweropen": false,
+        "blockdraweropen": true,
+        "regionmainsettingsmenu": "",
+        "hasregionmainsettingsmenu": false,
+        "addblockbutton": ""
+    }
+
+    Up until this part
+}}
+
+{{! This code outputs the theme Moove's head }}
+    {{> theme_moove/head }}
+
+
+{{! I added this part }}
+<head>
+    <style>
+        .beginers-course-info1 {
+            cursor: pointer;
+            transition: width .35s ease-in-out;
+            }
+        .beginers-course-info1:hover{
+            opacity: 0.7;
+        }
+
+
+       .beginers-course-info2 {
+            cursor: pointer;
+            transition: width .35s ease-in-out;
+            }
+        .beginers-course-info2:hover{
+            opacity: 0.7;
+            background-color:#003366;
+            color:white;
+        }
+
+        .beginers-course-info3 {
+            cursor: pointer;
+            
+            }
+        .beginers-course-info3:hover{
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+{{! Up until this part }}
+
+
+<body {{{ bodyattributes }}}>
+{{> core/local/toast/wrapper}}
+<div id="page-wrapper" class="d-print-block">
+
+    {{{ output.standard_top_of_body_html }}}
+
+    {{> theme_moove/navbar }}
+
+    <div id="page" data-region="mainpage" data-usertour="scroller" class="drawers drag-container bg-white">
+        
+        <div id="topofscroll">
+            <div id="page-content" class="d-print-block main-inner">
+                <div id="region-main-box">
+                    <section id="region-main" aria-label="{{#str}}content{{/str}}">
+                        {{{ output.course_content_header }}}
+                        {{{ output.main_content }}}
+
+
+
+                {{! My code starts here}}
+
+                        <div style = 'margin-bottom: 35px;'>
+                        <h2> English Literacy Course </h2>
+                        <p style ='line-height: 30px; margin-top: 20px;'>The English Literacy Course is meticulously crafted to accommodate learners
+                        at various proficiency levels. Before embarking on your language journey, a
+                        benchmark test will be required to assess your language proficiency and place
+                        you on the appropriate track on the course outline. The course offerings
+                        include the Basic English Literacy Course, which provides a solid foundation
+                        in reading, writing, speaking, and listening; the Intermediate English
+                        Literacy Course, focusing on vocabulary expansion and confident communication;
+                        and the Advanced English Literacy Course, refining advanced language skills
+                        for professional and academic success.</p> </div>
+
+
+
+                       <a href ='http://127.0.0.1/moodle4.1/moodle/login/index.php'> <div class="course-blocks" style = ' display:flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        font-size: 13px;'> 
+
+                        <div class="beginers-course-info1" style = 'line-height: 30px;
+                        display:flex;
+                        flex-direction: column;
+                        flex: 1;
+                        padding-top: 100px; 
+                        padding-bottom: 100px;
+                        padding-right:30px;
+                        padding-left:30px; 
+                        color:white;
+                        text-align: center;
+                        border: 1px;
+                        border-color: white;
+                        margin-top: 50px;
+                        margin-bottom: 40px;
+                        line-height: 25px;
+                        background-color: #003366;'>
+
+                        <div class="beginers-head" style = 'font-size: 40px; font-weight: bold; margin-bottom: 40px;'>Beginners</div>
+                        <div class= "beginersheader" style = 'font-weight: bold;font-size: 17px;margin-bottom: 10px;'>Starting your language journey!</div>
+                        <div class= "beginersinfo">Building essential skills for effective communication!</div>
+                        </div>
+
+    
+                        <div class="beginers-course-info2" style = 'line-height: 30px;
+                        display:flex;
+                        flex-direction: column;
+                        flex:1;
+                        padding-top: 100px; 
+                        padding-bottom: 100px;
+                        padding-right:30px;
+                        padding-left:30px; 
+                        color:#002a54;
+                        text-align: center;
+                        border: 1px;
+                        border-color: white;
+                        margin-top: 50px;
+                        margin-bottom: 40px;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        line-height: 25px;
+                        background-color: #e2e7ea;
+                        cusor: pointer'>
+                        <div class="beginers-head" style = 'font-size: 40px; font-weight: bold; margin-bottom: 40px;'>Intermediate</div>
+                        <div style = 'font-weight: bold;font-size: 17px;margin-bottom: 10px;'>Taking the next step in your language mastery</div>
+                        <div class= "beginersinfo">Elevating your vocabulary, grammar, and communication prowess!</div>
+                        </div>
+
+                        <div class="beginers-course-info3" style = 'line-height: 30px;
+                        display:flex;
+                        flex-direction: column;
+                        flex: 1;
+                        padding-top: 100px; 
+                        padding-bottom: 100px;
+                        padding-right:30px;
+                        padding-left:30px; 
+                        color:white;
+                        text-align: center;
+                        border: 1px;
+                        border-color: white;
+                        margin-top: 50px;
+                        margin-bottom: 40px;
+                        line-height: 25px;
+                        background-color: #003366;'>
+                        <div class="beginers-head" style = 'font-size: 40px; font-weight: bold; margin-bottom: 40px;'>Advanced</div>
+                        <div class= "beginersheader" style = 'font-weight: bold;font-size: 17px;margin-bottom: 10px;'>Advancing to excellence</div>
+                        <div class= "beginersinfo">Refining complex language, grammar, and communication for professional and academic success!</div>
+                        </div> 
+                        </div> </a>
+
+                {{! And it ends here }}
+
+
+                       
+                    </section>
+                </div>
+            </div>
+        </div>
+
+       
+
+        
+    </div>
+    
+    {{> theme_moove/footer }}
+</div>
+
+</body>
+</html>
+
+{{! I really do not know all these mean for now, lol }}
+{{#js}}
+    M.util.js_pending('theme_boost/loader');
+    require(['theme_boost/loader', 'theme_boost/drawer'], function(Loader, Drawer) {
+        Drawer.init();
+        M.util.js_complete('theme_boost/loader');
+    });
+    require(['jquery'], function($) {
+        $('.carousel').carousel({
+            interval: 5000
+        });
+    });
+{{/js}}
+
+{{! The end of the code }}

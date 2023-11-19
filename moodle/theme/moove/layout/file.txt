@@ -1,0 +1,17 @@
+ <strong style='color: #003366; font-size: 20px;'>Instructions:</strong><br>
+
+                <strong> Choose Your Level:</strong> You have the option to select either the Basic or Intermediate Benchmark Test.
+                Choose the level that aligns with your perceived proficiency.<br>
+
+                <strong>Authentic Responses:</strong> Provide genuine responses to each question, as this will help us
+                accurately gauge your language proficiency.<br>
+
+                <strong>No External Assistance:</strong> To ensure a fair assessment, refrain from using external resources or
+                seeking assistance from others during the test.<br>
+
+                <strong>Relax and Do Your Best:</strong> The goal is to understand your current skills, so approach the test with a
+                calm mindset. There are no right or wrong answers.<br><br>
+
+                Upon completion, your results will guide us in placing you on the appropriate track within our course
+                outline. Whether you are starting from scratch or advancing to more complex language skills, we are
+                here to support your learning journey.<br>

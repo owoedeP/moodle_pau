@@ -1,0 +1,1 @@
+s:249:"Coding error detected, it must be fixed by a programmer: page layout file [dirroot]/theme/moove/layout/frontpage.php does not contain the main content placeholder, please include "&lt;?php echo $OUTPUT-&gt;main_content() ?&gt;" in theme layout file.";

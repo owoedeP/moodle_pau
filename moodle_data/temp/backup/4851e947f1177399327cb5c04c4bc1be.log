@@ -1,0 +1,29 @@
+[13 November 2023 at 6:30 pm] [info] instantiating restore controller 4851e947f1177399327cb5c04c4bc1be
+[13 November 2023 at 6:30 pm] [debug] setting controller status to 100
+[13 November 2023 at 6:30 pm] [debug] loading backup info
+[13 November 2023 at 6:30 pm] [debug] loading controller plan
+[13 November 2023 at 6:30 pm] [debug] setting controller status to 300
+[13 November 2023 at 6:30 pm] [debug] applying restore defaults
+[13 November 2023 at 6:30 pm] [debug] Unknown setting: questionbank
+[13 November 2023 at 6:30 pm] [debug] Unknown setting: overwrite_conf
+[13 November 2023 at 6:30 pm] [debug] Unknown setting: course_fullname
+[13 November 2023 at 6:30 pm] [debug] Unknown setting: course_shortname
+[13 November 2023 at 6:30 pm] [debug] Unknown setting: course_startdate
+[13 November 2023 at 6:30 pm] [debug] Unknown setting: questionbank
+[13 November 2023 at 6:30 pm] [debug] setting controller status to 400
+[13 November 2023 at 6:30 pm] [info] checking plan security
+[13 November 2023 at 6:30 pm] [debug] setting controller status to 600
+[13 November 2023 at 6:30 pm] [debug] saving controller to db
+[13 November 2023 at 6:30 pm] [debug] calculating controller checksum 62fa57569d73f51e29a89a790f00959e
+[13 November 2023 at 6:30 pm] [debug] loading controller from db
+[13 November 2023 at 6:30 pm] [debug] setting controller status to 700
+[13 November 2023 at 6:30 pm] [debug] saving controller to db
+[13 November 2023 at 6:30 pm] [debug] calculating controller checksum 9f0951f148d9e0ef8e4b732f6c29f0f1
+[13 November 2023 at 6:30 pm] [debug] loading controller from db
+[13 November 2023 at 6:30 pm] [debug] setting controller status to 800
+[13 November 2023 at 6:30 pm] [debug] saving controller to db
+[13 November 2023 at 6:30 pm] [debug] calculating controller checksum 67c8e1dfd6c6ae0b0bab69555fcc54db
+[13 November 2023 at 6:30 pm] [debug] loading controller from db
+[13 November 2023 at 6:30 pm] [debug] processing file aliases queue. 0 entries.
+[13 November 2023 at 6:30 pm] [debug] setting controller status to 1000
+[13 November 2023 at 6:30 pm] [debug] saving controller to db

@@ -1,0 +1,18 @@
+[13 November 2023 at 9:13 am] [info] instantiating backup controller 0db723da1879d751f30e3256778bcbf3
+[13 November 2023 at 9:13 am] [debug] setting controller status to 100
+[13 November 2023 at 9:13 am] [debug] loading controller plan
+[13 November 2023 at 9:13 am] [debug] setting controller status to 300
+[13 November 2023 at 9:13 am] [debug] applying plan defaults
+[13 November 2023 at 9:13 am] [debug] setting controller status to 400
+[13 November 2023 at 9:13 am] [debug] setting file inclusion to 
+[13 November 2023 at 9:13 am] [info] checking plan security
+[13 November 2023 at 9:13 am] [debug] setting controller status to 700
+[13 November 2023 at 9:13 am] [debug] saving controller to db
+[13 November 2023 at 9:13 am] [debug] calculating controller checksum 710d326431e66dd8c927d76fa865cc88
+[13 November 2023 at 9:13 am] [debug] loading controller from db
+[13 November 2023 at 9:13 am] [debug] setting controller status to 800
+[13 November 2023 at 9:13 am] [debug] saving controller to db
+[13 November 2023 at 9:13 am] [debug] calculating controller checksum d61603ad2053a083b69acdfc79fc0370
+[13 November 2023 at 9:13 am] [debug] loading controller from db
+[13 November 2023 at 9:13 am] [debug] setting controller status to 1000
+[13 November 2023 at 9:13 am] [debug] saving controller to db
