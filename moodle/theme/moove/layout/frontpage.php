@@ -123,13 +123,13 @@ $templatecontext = [
             </p>
 
             <p style='margin-top: 20px;'>
-                <a href='http://127.0.0.1/moodle4.1/moodle/mod/hvp/view.php?id=28'>
+                <a href='http://127.0.0.1/moodle_pau/moodle/mod/hvp/view.php?id=28'>
                     <button style='background-color: #003366;
                         padding: 8px 12px; font-weight: bold; border-radius: 8px; border: 1px solid white; color: white;'>
                         Basic Benchmark Test
                     </button>
                 </a>
-                <a href='http://127.0.0.1/moodle4.1/moodle/mod/hvp/view.php?id=34&forceview=1'>
+                <a href='http://127.0.0.1/moodle_pau/moodle/mod/hvp/view.php?id=34&forceview=1'>
                     <button style='background-color: #003366;
                         padding: 8px 12px; font-weight: bold; border-radius: 8px; border: 1px solid white; color: white; margin-left: 15px;'>
                         Intermediate Benchmark Test
@@ -146,7 +146,7 @@ $templatecontext = [
                 If you have previously completed the Benchmark Test, you can proceed
                 directly to continue your learning journey from where you left off.
             </p>
-            <a href='http://127.0.0.1/moodle4.1/moodle/my/courses.php'>
+            <a href='http://127.0.0.1/moodle_pau/moodle/my/courses.php'>
                 <button style='background-color: #003366;
                     padding: 8px 12px; font-weight: bold; border-radius: 8px;
                     border: 1px solid white; color: white; margin-top: 7px;
